@@ -7,7 +7,7 @@ const income = parseFloat(process.argv[2]);
 const rate = 0.17;
 
 /*
- * all the values below are only for 2019
+ * all the values below are only for 2020
  */
 
 const healthInsurance = 362.34;
