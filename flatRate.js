@@ -10,20 +10,13 @@ const rate = 0.17;
  * all the values below are only for 2020
  */
 
-const healthInsurance = 362.34;
-const healthInsuranceToReduce = 312.02;
+const healthInsurance = 381.81;
+const healthInsuranceToReduce = 328.78;
 
-// after 6 months and before 30 months (previously before 24 months):
-//const retirementInsurance = 152.26;
-//const disabilityInsurance = 62.40;
-//const accidentInsurance = 13.03;
-//const workFund = 0;
-
-// after 30 months (previously after 24 months)
-const retirementInsurance = 612.19;
-const disabilityInsurance = 250.90;
-const accidentInsurance = 52.37;
-const workFund = 76.84;
+const retirementInsurance = 615.93;
+const disabilityInsurance = 252.43;
+const accidentInsurance = 52.70;
+const workFund = 77.31;
 
 const totalSocialInsurance = retirementInsurance + disabilityInsurance + accidentInsurance;
 const taxableIncome = Math.round(income - totalSocialInsurance);
