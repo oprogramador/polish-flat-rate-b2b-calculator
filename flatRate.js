@@ -4,7 +4,7 @@ const _ = require('lodash');
 
 const income = parseFloat(process.argv[2]);
 
-const rate = 0.17;
+const rate = 0.15;
 
 /*
  * all the values below are only for 2020
