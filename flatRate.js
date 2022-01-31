@@ -4,19 +4,19 @@ const _ = require('lodash');
 
 const income = parseFloat(process.argv[2]);
 
-const rate = 0.15;
+const rate = 0.12;
 
 /*
- * all the values below are only for 2021
+ * all the values below are only for 2022
  */
 
-const healthInsurance = 381.81;
-const healthInsuranceToReduce = 328.78;
+const healthInsurance = 419.92;
+const healthInsuranceToReduce = 0;
 
-const retirementInsurance = 615.93;
-const disabilityInsurance = 252.43;
-const accidentInsurance = 52.70;
-const workFund = 77.31;
+const retirementInsurance = 693.58;
+const disabilityInsurance = 284.26;
+const accidentInsurance = 59.34;
+const workFund = 87.05;
 
 const totalSocialInsurance = retirementInsurance + disabilityInsurance + accidentInsurance;
 const taxableIncome = Math.round(income - totalSocialInsurance);
