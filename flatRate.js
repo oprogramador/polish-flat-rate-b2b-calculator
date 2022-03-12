@@ -10,7 +10,7 @@ const rate = 0.12;
  * all the values below are only for 2022
  */
 
-const healthInsurance = 419.92;
+const healthInsurance = 1007.81;
 const healthInsuranceToReduce = 0;
 
 const retirementInsurance = 693.58;
