@@ -7,7 +7,7 @@ const income = parseFloat(process.argv[2]);
 const rate = 0.12;
 
 /*
- * all the values below are only for 2023
+ * all the values below are only for 2024
  */
 
 const healthInsurance = 1258.39;
