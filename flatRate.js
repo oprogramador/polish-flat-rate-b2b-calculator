@@ -7,16 +7,16 @@ const income = parseFloat(process.argv[2]);
 const rate = 0.12;
 
 /*
- * all the values below are only for 2024
+ * all the values below are only for 2025
  */
 
-const healthInsurance = 1258.39;
+const healthInsurance = 1384.97;
 const healthInsuranceToReduce = 0;
 
-const retirementInsurance = 916.35;
-const disabilityInsurance = 375.55;
-const accidentInsurance = 78.40;
-const workFund = 115.01;
+const retirementInsurance = 1015.78;
+const disabilityInsurance = 416.30;
+const accidentInsurance = 86.90;
+const workFund = 127.49;
 
 const totalSocialInsurance = retirementInsurance + disabilityInsurance + accidentInsurance;
 const taxableIncome = Math.round(income - totalSocialInsurance);
