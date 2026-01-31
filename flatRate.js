@@ -18,7 +18,7 @@ const healthInsuranceToReduce = 0;
 const retirementInsurance = 1103.27;
 const disabilityInsurance = 452.16;
 const accidentInsurance =  94.39;
-const workFund = 138,47;
+const workFund = 138.47;
 
 const totalSocialInsurance = retirementInsurance + disabilityInsurance + accidentInsurance;
 const taxableIncome = Math.round(income - totalSocialInsurance);
